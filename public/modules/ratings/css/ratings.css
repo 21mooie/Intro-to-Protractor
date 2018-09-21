@@ -35,3 +35,7 @@ form{
 .event.list{
   margin-top: 1em;
 }
+
+.disabled{
+  color: white
+}

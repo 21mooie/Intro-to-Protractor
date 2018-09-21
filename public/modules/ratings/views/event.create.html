@@ -8,5 +8,5 @@
     <textarea class="form-control" ng-model="event.description" rows="5"></textarea>
   </div>
 
-  <button class="btn btn-default pull-right" type="submit" >Create</button>
+  <button class="btn btn-default pull-right" type="submit" ng-class="{disabled: createEvent.$invalid}">Create</button>
 </form>
