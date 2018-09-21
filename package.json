@@ -11,7 +11,7 @@
     "start": "grunt",
     "test": "grunt test",
     "postinstall": "bower install --config.interactive=false",
-    "protractor": "protractor ./protractor/cconf.js"
+    "protractor": "protractor ./protractor/conf.js --suite=smoke,longRunning"
   },
   "dependencies": {
     "body-parser": "~1.2.0",
